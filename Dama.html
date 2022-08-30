@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movimientos de la Dama</title>
+
+    <style>
+        h1{color: red;}
+        body{
+            background-color: rgba(29, 180, 79, 0.418);
+        }
+    </style>
+</head>
+<body>
+    <ul>
+      <li>
+        <a href="index.html">Inicio</a>
+      </li>  
+    </ul>
+    <div style="text-align:center;">
+        <h1>La Dama</h1>
+        <img src="data:image/jpeg;base64,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" width="250px" alt="">
+    </div>
+    <hr>
+    <p>La Dama es la pieza más poderosa del ajedréz porque puede controlar muchas casillas
+        se puede mover como la Torre y el Alfil, osea de manera horizontal, vertical y diagonales:</p>
+    <div style="text-align:center;"> 
+        <img alt="Movimientos del rey" width="250px" src="https://ajedrezutea.com/lecciones/img/movimiento_de_dama_ajedrez.png">
+    </div>
+    <hr>
+   <h2>Consejos</h2>
+    <ul>
+        <li>No sacar prematuramente a tu Dama, será atacada constante mente y perderas turnos moviendo la misma pieza(Dama) varias veces.</li>
+        <li>Pon tu Dama cerca del centro y atras de tus piezas para que no sea atacada facilmente</li>
+        <li>La Dama controla muchas casillas, asi que busca casillas donde puedas atacar a 2 o más piezas de tu rival ya que no podra defender todo.</li>
+        <li>Ataca junto con las demás pienzas en especial con el Caballo ya que la Dama no se puede mover en forma de "L" por lo tanto hacen buena convinacion y se complementan.</li>
+    </ul>
+    <hr>
+    <h4>Siguientes lecciones:</h4>
+    <ul>
+        <p>Movimientos de las piezas:</p>
+      <li>
+        <a href="Rey.html">Rey</a>
+      </li>
+      <li>
+        <a href="Torre.html">Torre</a>
+      </li>
+      <li>
+        <a href="Alfil.html">Alfil</a>
+      </li>
+      <li>
+        <a href="Caballo.html">Caballo</a>
+      </li>
+      <li>
+        <a href="Peones.html">Peones</a>
+      </li>
+      <li>
+        <a href="index.html">Página principal</a>
+      </li>  
+    </ul>
+
+</body>
+</html>

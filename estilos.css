@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+body{
+    background-image: url(https://neuro-class.com/wp-content/uploads/2021/01/Portada-Procesos-neuropsicologicos-en-el-ajedrez-NeuroClass-1.jpg);
+    background-size: cover ;
+    width: 500    px ;
+    height: 500px;
+    
+
+}
+
+header{
+    display: flex;
+    height: 90px;
+    background-color: seagreen;
+}
+.logo{display: flex;}
+.logo img{height: 90px;}

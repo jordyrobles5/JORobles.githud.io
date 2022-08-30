@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movimientos de la Torre</title>
+
+    <style>
+      body{
+       background-color: rgba(29, 180, 79, 0.418)
+      }
+    </style>
+</head>
+<body>
+    <ul>
+      <li>
+        <a href="index.html">Inicio</a>
+      </li>  
+    </ul>
+    <div style="text-align:center;">
+        <h1>La Torre</h1>
+        <img src="data:image/png;base64,iVBORw0KGgoAAA
+        ANSUhEUgAAATwAAACgCAMAAACmCCC4AAAAflBMVEX///8AAAD+/v4BAQHj4+Ompqbw8PDz8/Ojo6MQEBAvLy8eHh7JycnR0dHDw8Pt7e0NDQ21tbVLS0ubm5syMjKSkpJPT0/c3NysrKz4+PhBQUErKyt5eXlhYWEUFBTW1taEhIRra2tYWFhcXFwjIyONjY06OjpCQkJvb29/f3/qvrQNAAATr0lEQVR4nO2diWKqvBKAk2BdiizuCxaXo9a+/wve7GQFFLD2v049HoUQko+ZyWRAAIAKAr3Dv+s5TwsZ5XkYhufrcrfu4QIIASDK9mfH6TxMNRnR8udzdl0eh1FRHFEZ7/QNRrhoNp9vv6e3jwErAx4QRF6ubdHGXIxKd4LXkD+1ZvXPrMaoKDlBv5wSIGsgdR3Y4sC7QbhWyuPXOC+pfQGMBtYX3hEHPAq1fIlZj1EN/25s44Q3STGLAAt9I1gCJhRRrMBDqBdAWYp8Ym/FdvjtW2WNwFFUzjbg1PkOrqzcI1KiryYMVLkPq7LSylWZSQpBALWOko8LRTcQmPCyTPkoXw6ZrcCvUV+WJq2eMzWl63gJWTf83JRSKO0vGAw/nNJ3mO1m4in8MRyqnqaQ/Ye1xXC4HsZGyRlU1U0R0l14KY4CoqBdJdWN8kQ9Sv2zXl7/kiWPKh7ebOXxBSvLFSKQTEucx8/GhCd6asttoJdcFBqhCe0o3Gmad+E65xYKJO2J8qQPvZBrnKswzHqWjdWH10udFYcr04+SZgi/bvUUfzvYzg2AoWKESot3G73ogS1OU00t2DeMmo9qdAfowPeXOnQu5RbcY5bI/PCKjxdpqlaNy1I59zwjRvkAyaQ3ch5GDM92BaWD4sHl8YbQ0hKCw4C3+WGdPsWaTL7Y4mMxzCBSliKdTmJbFjnDvSq6jsCewRtd9LLDsBxeHXkJeDumnz9GBZzTlwGaLTQsn0o8EvCUNkQMXh4bHf9k8FwdrStPhwdteIMbA/Kj+26pkMJqueZR0F99YEvMNW+vqKoCT5ohcc8rBi/cA/eI8ZJmS8SGF7CRoei0wmmpliWaBxk8ZAqDBwk8RTi8MFaIEnhZObw68jLwIB1WLc3DK7aDpJDejputrXmImC0Lq5UNkpjDGxe+DSnwosddHujldeGhh+FZO3CZLVlsmy0dV8/ZOWOC/89LzHZMoxIY5JkiZ7b7c6RPkQt4zvlpbXieUEWfSeH/k2U5PH0OS14kzrNCldrwDnagA/mkAh71Kji8s2sDJtneCS8fe+DVyRf44bH+F/DKzDaw4LEvQ9HXcnhHJzwW/qmRn/iKS99seAiMM6hMkcU2bL+fmi3VhFc1YHjg9SxHUKZ5DnjSbGG15nngzRwoRArg5urvamtM3BS9n2s9KuDF7ZvtaLG2ZXb1wsMBhWOD9c2yWleo0j/yxca4N2FhW6DoHxQ8DraXxxP1E1+r0BOad02cZjuKGw4YLieRQmibm3dOSXqVGuWhfuQd8ESbMTxazIRX5mNXzjza0L/BQcuo6fBcUtdsXTT8rXBKyUzdPDg2vMGRlTHNFkRf19CaoKRpCrOZUkr4Mvw+uGzPuXHM0yDNr/8ufS0tq8IrMdvH4HUmAYenHlYW59mah0B/tY8nqtBpaTSOihSOCo/kSvfj2Cg/jqJVIsb//wQ8VTyhSqnZOOCVbkBXuc32b8MjiQFow5NuBxXdYOqDNNevwOMnC5BRB1/jGTD+DjzoMFsPPI2SwkjXMM1seU5d1UqSBpBV/UfgqULhOUZb4aW0M4nsP3WZpnnsqxFxGurbObxAednLrSKuLLozre5NhvKsipZX4SSQRs8hamd1DeNLHdvwfN4oLkP02AxDD9PN5XYZq6R3iRueOFnxaLh6v3B4eQfwOhR2DkPTpx8Wgx97Se9pEhdm62f0oj5PG/r4CaD880kyn3/OM9btvBG8EMLwMnue4JjONFtyOtFzdrBzaQYPa97Mkd5xuWOgu+8Sxy3W2nWC5Iuc49WbtoDF7N/qXsDf22FLaxHZLfzHUlIPwkty+I9dlfAsXx3NTbNlOVNxMUSgXHlhjEpNoImkjHJtBllAzmEUkc6dkmTw4lKTDoTHEMkJ/hj7EteqcJUIpIo4CVQM8D7Ygcj0qNECPCePw0Nokp/QxhdAdSAgCqcroxXRVDo9tXdtigCmZLZ5GkzO5+5XH+yE/h1c5wO6kmRp7Q6H+1+iM82M8x6Q1GhnA4AeN1viwmeX4XA2fJL8TAbWeTnchp3UC5jfDoVchCweEbm1qO7ncNkWFMMJQsV85H6zpdPmdecHW8rVcaqPNv/jLE730DJdyWZWhEXTHlDnxo+YLXkRs+EeuwNgYvTEgcFi4Mi6sXl7fJXjxXmtJEJUfwmKAEnpgC+w0kMqesx6R3kKCe5WylYWOPN6YAOasnPQW3B0nThrMfZhM5G7NtKe+H21LCAf+/SCkgKY1XRJpPjs6aPCdTyH8mTojAyTG+2weFjplZqlSCPWIU34dzNZY809RRul82aDEBj8jKAYMpaRSG2apS2b9/ez2IQC6i949XgH1wk/JHfDsxYgYbrdDHZUoUeHAXY5TniiDYM1veSQNmK+BmZWuKozHrMVecDeDUqbne4R0J2Cg4lv5/oUi9XeP9x/1qweO9LebC1GWQlP6ZxoyCSDYpaWLtoN2/eFV4BfPcOhNqiXeUy0+Qg7wUeae90XiWC2T23/QDg2ErMIz3uK935Z3Se9GZTDYbYG5kAj918HlbmIh4q9pextW+AgM9lNkQd3m61oyWCRyvEw/Mz8Ui/5RBNQRGBhsrFrdFVh+JtXIDQokqGnJ69MypbNZHpankRd+XrgOF6+dk3IVR1p696XjxRwx6M7IwdU3TxvtAREhZt1TnXlOxo0lGQwWDMlnkbu1rn4ITFZk0mWelycrNXl/DO51oB1HBmtqQ8PuOGRf9E/SK+8auqucVUb+qOJS8+VtfHDI1dNCHiBRsCRVSnNrWgg6Wsbi5HC2WCteb5eAedQzBcleEjf0tOdDYRVNT7juTcAHnhO2VD/G4fc4lszXjbKJtL0qtpf3TvLbFmXcZSlj+QPCZlyhXCaEGdayy7YYtaoccbSoy2h4xfDbKR9mWZb7fMKYE6fJ1oe4f3M2giyEuwBCDzLPwOv2cpNv2Gboz5T4/JOVZhtvUiGwsuG42gcNRC8+Z6E9NPE05byVmB4zNAmjWU9+TjDduE5fJ4Cj8QXzWSE/6ANT+62Gh5VvEV5sXqymbPK2tO8UnjtOJvUoXn14VGjXbRxhmDw2bLm+eug8IpIwfHyLC48jJKGetxs6Y4WXhOxByhlsb6nwfyp8LwRValI38y+NYK3ZYejBbOl8GqYbXU9xccqs204PxIq+pDZItDT4OnOWmt/HR6DOWtQAa9RHqVka262bUmJ5omFruP42vBK1vw+vLfmVcIrad2rwyv3ec+AV6b9rw2vZM3vm63L58lzQSo8umGJWrO9mPCaTj2fA+/xUKWm5nnTC5rUg4fUtc2C5L8Bz9sHTe6D5ylSPreVRtANPGOHalMcbXWZrdYJqXmtmW2zuW238IAfXg2fV5SxfJ5D/4ypWvvwfPI2W0+DXxZe0TL+qbcVWRWz4cwDSLNVEJq6KDcy57ZIuRTBcwwcx6bUbDv2eX6zBQYBss4JTytjma21pASeuVUterXk+TOMF4T3qLzhPSCimheBZw8YLwxPVvP8ua0JzzO3fWF4Un5f8zi8wDXa8jJq1+lwVBL5PTRgVHz3bdAFPGvfZfDA/fCcuijEivPug6fG5n7hpvQseF6zfcOrhqfReMN7w3vD+wvwKkOVUngWKxue+KyMtsgtpfDukpcJVWCzOO9OeDrCN7z/MLxKs33De2veG96rwlP7y/rgGW21cMba1IYnpCxU8Ym5uu4Gb3iOFtfZoKs4r6xxb3hveG94rvYZ+/Rv8IZnt8/Yp3+D34Cn95v1q3e9IzFgV6V/9mWSddgvG6rY4onzasNDFipgLWkJ3l0c3/DAX4N3p9m+4b3htQRP79cb3gPwxEhK4cHyUEXruitUccDzliltX7FPr6AnhypI2bMOD/09eEJ+PSX1hvd/Bk+sfpvtg/Bew+f9wQHjt5KhHs0L2I+VW5ANTwwsHoPnCGR80urPp4IGJ73pD36PzW/QMJmsM/FLb792tgIPAXaDhjz7pPe6qnnHK6dwzUP3wlM0r7WjSCNucrNG0Ak8WSnRvPNHk/uCcNmVw9N3bcCb8ztntcKP389zQdUaPAavlJ1sPIW3rlO2SpLjoxf6IP4w0Ya/1RfsuBZ/jjv2eQzelet3HUSeekgNY3I7JOTcdSk8cUNe825aj6ELAnHrvKvy/M+W4SHmrMmDUbZ6jzx4Susi68dneI7du/b4PHbrpKF4IGYbiidvtoE/n+T9LrXIxoHnTr3h95IiR509oKSZIPaQVfLIcdfB9WgeLbqAUHa3LeFHYrkCej6lJXiA3TT4Qv3rZ9zCo2LoQ0LgfOyi54cH1rKrQRrCVJERkdQW33Iq+ShPcyjuxHvaWDF2O5pH6vvgw3o2nS6nDYXd/ZMdbQc8p9kidsdmOjoeN4N+0xtIsntIDrD35fxuiW21LWgePeqjtvw0txZS07ZnDz6+AQNMIOSD486TCry3W6zaTK22fZ9H2IXCwcob7jKH4bidpLZEXa6they+xHV9HnsiPO3kV1I5ZmljpenHDN2a5KKROzXaaw0eiFPvXaQMdXLqprGFeNAOLvmvb7ZGMVvRfvIWZ9I5JVrT1A4VSH3wXN1bQ3FYLhtQerNfdV9FEzwbiMbTlkOpWI1NVtxQiqjRBuiBIzJ2T8Z5HNt88kOgsWsDHhKPGiL3pVtsqlT6jqwKG4HGWYs3mlQhklpvfX3MteHhJatvqXc9veXN4eEAdsGfcQXTYXXQWxseXbO/GrfBaxEervWg24oL3uokNJU8vlwr0RzehsedrDWTcnT3mS1mt4VuT9YCPHpIfrTbEzvMlt1cnbRhGtHOtgqPOoad8AphFb368PDffiqTD+3DY/jIY1j88OiTWpnqn8d6GNgOPPIi989lKvJZ8aycO8wWgC1Uw4326eGK86G3cbhlffG4CvhpPtqrRUluYggL90DP7XlDFa93RCzm6Z26gGbJUOzS1CtE/RE/eIdo3JlEa6kjZOIDlHuL3A2P5n829LlCz5BgLR9UaJiteOoeGQrP57AzOZ+Za6Chu36P+Pvh0Qc5bI5wudsdFrPhWhHzTECsyDimxzHWxThzoMjHcLH42d2u4cQFD8jwvIvB3jqCMkN9QarXfAQexrcLKkfudgSPCTEPWPSWborMcRCYU5VWRSQKCb1R1MjnEcXt/8DbRqS/rSmnXr05lqHif2PUs/ZEPdvqmo/ZWt1eEvq8QvoIkY4GLal1xdExspaPDBhgj120GHhAAUCHx61NgjEOmIXYPEY8VsChwleC7BYlp8fmg8FDtMVGaQyUdttNNg++o0iEB552kj/VEodw2RN7VqZqGF7XSqfC48nWYNIGvGBHBoEo2q9WJAOcUOn36RuVwaCvpyU3WIycY1+RpBBS4Wq/jyI8vEzwHKKAp7QiWYoA+UnCRoxW4OEANjxn2ef8et1+f0+XyxOTf1y+Cjk65EsVtgWvYLmcTr+32+t1/pnhAIQ80M8Bjz72iqrdpYXkfw1ZbRm9j1Y072lHHDrMFnF4uBlDs4HdyIDNReGwBXgBTxtpw7ljlOfFrKyy5qrkcrUqGYe4zJbAm7LAddYioRLB8ALt4hW7yB2ap0GDzlEsKN5Lg1l1Uw0hzzv44WGZgSKOQUUTrZnwY1kVuZxoHpGFL7CqGee1fEVZtbjN1g/P0f43PK0Rb3hveG94fwseKOA9KVTZcHglg/sLwgv0AQMhNvmIJuxp6PCwb+GaymoZ893tIjarGnjUzwlPKDfit0WuGSS3cb2XgMfasV5mYcrXPGtmK1vCwq48uy5vkRXIKeaM9AUFPPxtjKs4Hw+Xy2z28bE2xHmBtD8B6syE0mzobHG5/JDTYxiefAr1JS36EjwnFarur9jdVwKsJ94a8IAKj57c42YbrvE8v0RxmwvZ4wYlBw6Py9nMgHaZBtUFinQ83Xe+LzkLbptt8WUP4Y2NcMooZvQbaUfCNawp2T7k2B/zcADPyNX0V6ZMPZ4q6pyKYozsRpvwCs0D0YXLYof9NBJ5UJ/qFslQB37XAn1T8V/yD34eFovLggrVvDSAygz4eSZbgCTeYuwIh7xmCz6UuuCp74HetozPaidACGW64amDhdJ3DtCG5/xIv2rwsNBkKMmGkkfc94qEqC0k09k3xVeYJc9WK5IKJefaJt/aXkHYxsVYDSWlR25s+rxKeEq7U5oNJcnQ7fd0utRzoe5k6O3mTIf+U7OhLBlKc6FZGIap3m7AHr4eTAaD/sA6Ik8R7Eeo1scWotrwnpn+VuGN2ILml94/LJsvNmbFVqji/Ei/6vCKwaeL0zDKsGYYKUjZgglASBvDnyYS3qQxPKkcgdpz+W7wsDkHxjp9SAusegS8GJVEWd0KgQfp9XoPw7N+a8PT68rnxuL4PQ+Bxx2Oi52qIcoSu4x3rVmNvVbRvIogWVZgDxi/IhgePTSxfXhL4LVttpBdKeoE/8rwuDb+4oCBvhiFGPhVzx0kvwI8coXKJf49+Wae2AqSLXgvp3ncbEf56NeEu90/CC9/gRkGi6Gi6qxKBbxAeXXSTqN6nlURAWYxHFenRZzRkGDhClfF6fliaSACUEjN1v+bIDtUGXbD5y4BW5GNEr0qQaNyD8yXeUFkuQoEai3sQ3QXvNUQy8evyhBc1FyUjsh81VE9Da6meUaMzxHy2J1cB13t8xR4dvLuNyTKWtPiZkJ/YelrpfME0G/Dww0YH47LLbv+LM/Lfq5dX4qBNLfFfYF8OF2VTRA98PRo2ypQK0avW95R/f8AOVnX5uGIKdYAAAAASUVORK5CYII=" width="250px" alt="">
+    </div>
+    <hr>
+    <p>La Torre se puede mover solo de manera horizontal y vertical:</p>
+    <div style="text-align:center;">
+        <img alt="Movimientos de la Torre" width="250px" src="https://ajedrezutea.com/lecciones/img/movimiento_de_torre_ajedrez.png">
+    </div>
+    <p>Dato curioso: La Torre controla el mismo número de casillas(14 casillas) sin importar en que casilla en el que se encuentre. </p>
+    <hr>
+    <h2>Consejos:</h2>
+    <ul>
+        <li>Las Torres trabajan mejor juntas, pon tus torres en la misma fila al principio de la partida. </li>
+        <li>En medio juego trata de poner las torres a controlar columnas o mejor trata de poner tus 2 torres en una columa</li>
+        <li>Trata de que tu torre/es esten en la septima fila, estaras cerca del enroque del Rey y será algo muy molesto para tu rival porque amezanas muchas cosas.</li>
+    </ul>
+    <hr>
+    <h4>Siguientes lecciones:</h4>
+    <ul>
+        <p>Movimientos de las piezas:</p>
+      <li>
+        <a href="Dama.html">Dama</a>
+      </li>
+      <li>
+        <a href="Rey.html">Rey</a>
+      </li>
+      <li>
+        <a href="Alfil.html">Alfil</a>
+      </li>
+      <li>
+        <a href="Caballo.html">Caballo</a>
+      </li>
+      <li>
+        <a href="Peones.html">Peones</a>
+      </li>
+      <li>
+        <a href="index.html">Página principal</a>
+      </li>  
+    </ul>
+</body>
+</html>
